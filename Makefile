@@ -1,11 +1,8 @@
-#from cProfile import run
-
-
-serve:
+server:
     flask run
 
 migrations: 
 	flask db init
-
+	
 migrate:
 	flask db migrate #-m "migration"
