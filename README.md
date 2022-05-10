@@ -67,18 +67,33 @@ As a user I would like to:
         $ python3.8 -m pip install Flask-Bootstrap
         $ python3.8 -m pip install Flask-Script
 
-* Setting up the API Key
+To get the code..
+Cloning the repository:
+  ```bash
+https://github.com/DynastyElvis/Pitches  ```
+Move to the folder and install requirements
+  ```bash
+  cd Wise_Pitches
+  pip install -r requirements.txt
+  ```
+Exporting Configurations
+  ```bash
+  export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
+  ```
+Running the application
+  ```bash
+  python3.8 manage.py server
+  ```
+Testing the application
+  ```bash
+  python3.8 manage.py test
+  ```
+Open the application on your browser 
+```bash
+127.0.0.1:5000
+```
+---
 
-        To be able to gather article info from the News API you will need an API Key.
-
-        * Visit https://newsapi.org/ and register for an API key.
-        * In the root directory of the project folder create a file: start.sh
-        * Insert the following info into it:
-
-                export NEWS_API_KEY='<Your-Api-Key>'
-                python3.8 manage.py server
-
-        * Insert the API Key you received from News Api where <Your-Api-Key> is.
 
 * To run the application, in your terminal:
 
