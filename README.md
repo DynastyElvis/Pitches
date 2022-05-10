@@ -26,12 +26,16 @@ As a user I would like to:
 ## Specifications
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
-| Display news sources | **On page load** | List of various news sources is displayed in a list |
-| Display tabs with news by category | **On Tab link click** | Clickable links to open news based on category |
-| Display articles from a news source | **Click a news source** | Redirected to a page with articles from the source |
-| Display the preview of an article | **On page load** | Each article displays an image,description and publication date |
-| To Read an entire article  | **Click an article** | Redirected to the news source's site to read the entire article |
+| Load the page | **On page load** | Get all posts, Select login|
+| Select login |  **Email**,**Password** |Redirect to Home page|
+| Select SignUp| **Email**,**Username**,**Password** | Redirect to login|
+| Select Login | **Username** and **password** | Redirect to page with all pitches based on categories and commenting section|
+| Select comment button | **Comment** | Form that you input your comment|
+| Select comment button | **Add Comment** | Form that you input your comment|
+| Select comment button | **View Comment** | Redirect to all comments|
+| Click on submit |  | Redirect to all comments tamplate with your comment and other comments|
 
+---
 [Go Back to the top](#Pitches)
 
 ## SetUp / Installation Requirements
