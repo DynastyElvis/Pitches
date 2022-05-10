@@ -50,7 +50,7 @@ As a user I would like to:
 * In your terminal:
 
         $ git clone https://github.com/DynastyElvis/Pitches
-        $ cd NewsPI
+        $ cd Pitches
 
 [Go Back to the top](#Pitches)
 
