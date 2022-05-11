@@ -4,7 +4,7 @@ from pitch.models import User
 
 class UserTest(unittest.TestCase):
     def setUp(self):
-        self.new_user = User(username='Sirgama',password='1111')
+        self.new_user = User(username='Elvis',password='5595')
 
     def test_password_setter(self):
         self.assertTrue(self.new_user.password is not None)
