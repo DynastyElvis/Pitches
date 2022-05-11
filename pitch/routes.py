@@ -11,7 +11,6 @@ from flask_mail import Message
 
 
 
-
 # Views
 @app.route('/', methods=['GET','POST'])
 def index():
