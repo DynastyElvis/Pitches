@@ -201,7 +201,7 @@
 <!-- Tabs content -->
 </div>
 <div class="col-md-3">
-  <h4 class="text-center mt-5">Pitches</h4><hr>
+  <h4 class="text-center mt-5">Top Pitchers</h4><hr>
   {% for user in users[:limit]: %}
   <div class="card-header"> <img
     src="{{ url_for('static', filename='profile_pics/' + user.image_file) }}"
