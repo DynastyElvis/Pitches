@@ -55,3 +55,20 @@ def register():
         return redirect(url_for('login'))
     
     return render_template('register.html', title='Register', form=form)
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if current_user.is_authenticated:
+        return redirect(url_for('index'))
+    
+    form= LoginForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(email=form.email.data).first()
+        password = User.query.filter_by(password=form.password.data).first()
+        if user and password:
+            login_user(user, remember=form.remember.data)
+            flash('Login Successful!', 'success')
+            return redirect(url_for('index'))
+        else:
+            flash('Login unsuccessful. Please check your username or password!', 'danger')
+    return render_template('login.html', title='Login', form=form)
