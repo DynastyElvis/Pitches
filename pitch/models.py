@@ -1,7 +1,7 @@
 from datetime import datetime#import datetime
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer # for generating tokens
 from pitch import db, login_manager, app #importing the database and login manager
-from flask_login import UserMixin #, current_user
+from flask_login import UserMixin #, current_user helping user to  login
 
 
 @login_manager.user_loader #for loading the user

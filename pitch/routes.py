@@ -6,7 +6,10 @@ from pitch.forms import PitchForm, RegistrationForm, LoginForm, UpdateForm, Comm
 from pitch.models import User, Pitch, Comment
 from flask_login import login_user, current_user,login_required, logout_user 
 from flask_mail import Message
-
+#from  flask_migrate import Migrate, MigrateCommand
+#migrate = Migrate(app,db)
+#manager.add_command('db',MigrateCommand)
+#from flask_migrate import Migrate
 
 
 
