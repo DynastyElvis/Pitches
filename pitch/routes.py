@@ -18,8 +18,7 @@ def index():
     '''
     View root page function that returns the index page and its data
     '''
-    
-   
+    form = PitchForm()
     comments = Comment.query.all()
     pitches = Pitch.query.all()
     user = User.query.all()

@@ -18,7 +18,7 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'minutepitcher'
-app.config['MAIL_PASSWORD'] = '42625435'
+app.config['MAIL_PASSWORD'] = '5594'
 mail = Mail(app)
 
 from pitch import routes
