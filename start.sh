@@ -1,2 +1,2 @@
-python3.8 app.py
+python3.8 run.py
 # Path: start.sh
