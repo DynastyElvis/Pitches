@@ -9,7 +9,7 @@ You can view the site at: [ My PITCHES Live Link](https:///)
 
 
 ## Screenshot
-<img src="xxxxxxxxxxxx.png" width="800px" height="400px">
+<img src="https://github.com/DynastyElvis/Posts/blob/main/post/static/img/Screenshot%20from%202022-05-16%2009-17-33.png" width="800px" height="400px">
 
 ## User Stories
 These are the behaviours/features that the application implements for use by a user.
