@@ -8,8 +8,11 @@ This' is Pitches website where user can sign in and put comments on pitch
 You can view the site at: [ My PITCHES Live Link](https:///)
 
 
-## Screenshot
+## Screenshots
 <img src="https://github.com/DynastyElvis/Posts/blob/main/post/static/img/Screenshot%20from%202022-05-16%2009-17-33.png" width="800px" height="400px">
+<img src="https://github.com/DynastyElvis/Posts/blob/main/post/static/img/Screenshot%20from%202022-05-16%2009-17-39.png" width="800px" height="400px">
+<img src="https://github.com/DynastyElvis/Posts/blob/main/post/static/img/Screenshot%20from%202022-05-16%2009-17-52.png" width="800px" height="400px">
+<img src="https://github.com/DynastyElvis/Posts/blob/main/post/static/img/Screenshot%20from%202022-05-16%2009-17-55.png" width="800px" height="400px">
 
 ## User Stories
 These are the behaviours/features that the application implements for use by a user.
