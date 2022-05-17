@@ -5,7 +5,7 @@ This' is Pitches website where user can sign in and put comments on pitch
 ## Built By [Kipkemoi Elvis](https://github.com/DynastyElvis)
 
 
-You can view the site at: [ My PITCHES Live Link](https:///)
+You can view the site at: [ My PITCHES Live Link](https://pitches-posts.herokuapp.com/)
 
 
 ## Screenshots
